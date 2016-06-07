@@ -1,0 +1,4 @@
+[
+  {"image": "img/coverPlants.png", "id": 0, "route": "main.nfvi"},
+  {"image": "img/cover.png", "id": 1, "route": "main.executivesMessage"}
+]

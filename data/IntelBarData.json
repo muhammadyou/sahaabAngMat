@@ -1,0 +1,57 @@
+[
+  {
+    "label" : "Service Provisioning/Time-to-Market" ,
+    "value" : 0,
+    "color": "#00FF00"
+  } ,
+  {
+    "label" : "Digital Services Enablement" ,
+    "value" : 0,
+    "color": "#00FF00"
+  } ,
+  {
+    "label" : "Security" ,
+    "value" : 0,
+    "color": "#00FF00"
+  } ,
+  {
+    "label" : "Platform Openness and APIs" ,
+    "value" : 1,
+    "color": "#00FF00"
+  } ,
+  {
+    "label" : "Data Center Hardware" ,
+    "value" : 1,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Hypervisor, Orchestrator, Controller" ,
+    "value" : 1,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Organizational Agility" ,
+    "value" : 1,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Leadership/Ownership" ,
+    "value" : 3,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Network Operations" ,
+    "value" : 1,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Governance" ,
+    "value" : 1,
+    "color": "#00FF00"
+  },
+  {
+    "label" : "Customer Experience" ,
+    "value" : 0,
+    "color": "#00FF00"
+  }
+]
