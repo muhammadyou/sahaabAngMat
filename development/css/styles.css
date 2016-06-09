@@ -1,0 +1,548 @@
+html{
+    overflow: hidden;
+    height: 100%;
+}
+
+/* --Font Converter: https://everythingfonts.com/font-face */
+/* --Including different fonts below : https://css-tricks.com/snippets/css/using-font-face/ */
+@font-face {
+    font-family: "neo-tech";
+    src: url('../font/neo-tech.eot'); /* IE9 Compat Modes */
+    src: url('../font/neo-tech.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url(../font/neo-tech.TTF) format('truetype');
+}
+body{
+    font-family: "neo-tech", Roboto, "Helvetica Neue", sans-serif;
+    font-weight:24px;
+    overflow: auto;
+    height: 100%;
+}
+
+
+
+.ETfonts{
+    font-family: "neo-tech", Roboto, "Helvetica Neue", sans-serif;
+    font-weight:24px;
+}
+
+.engHeadFont{
+    font-family: "neo-tech", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+svg text {   /* for angular nvd3 text */
+    fill: black;
+}
+
+:focus {
+    outline: none;
+}
+
+
+.greyfont{
+    color: #454343;
+}
+
+.greenText {
+    color: #729e1a;
+}
+
+.marg-left-right{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.noMarginPadd{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.noMarginPadd-left{
+    padding-left: 0 !important;
+    margin-left: 0 !important;"
+}
+
+.noMarginPadd-right{
+    padding-right: 0 !important;
+    margin-right: 0 !important;"
+}
+.pointer{
+    cursor:pointer;
+}
+
+.dim {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    -moz-opacity: 0.4;
+    /* Safari 1.x */
+    -khtml-opacity: 0.4;
+}
+/*--------------------------------------------Heading Bar --------------------------------------------------------- */
+.topHeadingBar{
+    background:white;
+    z-index: 3;
+    box-shadow:0px 12px 8px -8px #d5d8d5;
+    margin-bottom:5px;
+}
+
+.headingBar{
+    background: #6c6f6c;
+    color:white;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.topHeadingBar h5{
+    margin-top: 10px;
+}
+
+.topHeadingBar h6{   /* sahaab arabic image */
+    margin-top:-35px;
+
+}
+
+.LogoStyle{
+    background:white;
+    float:left;
+    margin-left:55px;
+    height:80px;
+    width:70px;
+    cursor:pointer;
+}
+
+.topHeadingBar{
+    height:80px;
+}
+
+
+.fabBtn{
+    position:fixed;
+    background:#729e1a;
+    color:white;
+    margin-top:10px;
+    right:25px;
+    z-index:3;
+}
+
+.fabBtn:hover{
+    background:#63871b!important;
+    color: #00FF00 !important;
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .topHeadingBar{
+        height:130px;
+    }
+    .topHeadingBar h4{
+        text-align: left;
+        font-size: 17px;
+    }
+
+    .topHeadingBar h6{
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .LogoStyle{
+        margin-left:2px;
+    }
+
+    .fabBtn{
+        margin-top:50px;
+    }
+}
+/*------------------------------------------Carousel --------------------------------------------------------------------*/
+
+
+.fullWidHeigh{
+    width:100%;
+    height:100%;
+}
+
+
+
+/*---------------------------------------------Right Side Nav -------------------------------------------------------*/
+
+
+
+
+.divider{
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.selectedBackground{
+    background: #729e1a;
+    color:white !important;
+}
+
+
+
+.sidenav {
+    width:0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height:100%;
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    box-shadow: 0 8px 17px rgba(0,0,0,.2);
+    background: #1d1f1c;
+    color:white;
+    z-index: 10;
+}
+
+.sidenav button:hover{
+    background:none !important;
+    color: #00FF00 !important;
+}
+.sideBtn{
+    color:white;
+    width:290px;
+}
+.sidenav.open{
+    z-index:10;
+    width: 290px;
+}
+
+
+/*------------------------------------------Background1 -----------------------------------------------------------------*/
+
+.background1{
+    padding-bottom: 33%;
+    background: url("../img/background1.png") no-repeat top center fixed;
+    background-size: 100% 100%;
+
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .background1{
+        padding-bottom:0%;
+    }
+}
+
+/*------------------------------------------Status and  Projects ---------------------------------------------------------------------*/
+
+.ng-table-group .greenText:hover{
+    cursor:pointer;
+}
+
+.statusImg{
+    width:80%;
+}
+
+.nav-tabs{
+    background: #6c6f6c !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: none !important;
+    border-bottom: 2px solid lawngreen !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    color: white !important;
+
+}
+
+.nav-tabs a{
+    color:white;
+    font-size: 18px;
+}
+
+.nav-tabs a:hover{
+    background: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    color:white;
+}
+
+.nav-tabs a:visited{
+    border-top: none !important;
+    color:white !important;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.fullWidthHeight{
+    width:30%;
+    height:100%;
+}
+
+.SDNFbackground{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.top10Marg{
+    margin-top:10px;
+}
+
+.silverbg{
+    /* background: #ededed; */
+    background: #525659;
+}
+
+
+.cardText{
+    font-size:14px;
+    color: #454343;
+}
+
+
+.demo-card-wide.mdl-card {
+    width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    width:100%;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.firstCardSpace{
+    margin-left:12%;
+}
+
+.otherTwoCardSpace{
+
+}
+
+
+@media(max-width:768px) {  /* ----sm --- */
+    .firstCardSpace{
+        margin-left:10%;
+        margin-bottom:3%;
+    }
+
+    .otherTwoCardSpace{
+        margin-left:10%;
+        margin-bottom:3%;
+    }
+}
+
+
+/*--------------------------------------------------Etisalat Status -----------------------------------------------------*/
+.top40marg{
+    margin-top:40px;
+}
+
+.closeIcon:hover{
+    color:red;
+}
+
+.material-icons:hover{
+    cursor:pointer;
+}
+
+.NMMlink{
+    font-size:14px;
+    color:blue !important;
+}
+
+.NMMlink:visited{
+    color:blue !important;
+}
+.nv-x text {
+    display: none;
+}
+/*--------------------------------------------------Achievements-----------------------------------------------------------*/
+
+
+
+@media(max-width:768px) {  /* ----sm --- */
+    .achievImage{
+        margin-left:25px;
+    }
+}
+
+.prevArrow-icon{
+    font-size:50px;
+    margin-top:5em;
+    padding-left:10px;
+    cursor:pointer
+}
+
+.nextArrow-icon{
+    font-size:50px;
+    margin-top:5em;
+    cursor:pointer;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+@media(max-width:768px) {  /* ----sm --- */
+    .prevArrow{
+        margin-top:-180px;
+        margin-left:-25px;
+    }
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .nextArrow{
+        margin-top:-182px;
+        margin-left:-25px;
+    }
+}
+
+/*----------------------------------------------------Updates ---------------------------------------------------------------*/
+.cardHeading{
+    font-size:22px;
+
+}
+
+.fullWidth{
+    width:100%;
+}
+.updHeading{
+    margin-left:10px;
+}
+
+.funFacts-Head{
+    margin-left:12px;
+}
+
+.funFacts-content{
+    margin-top: -20px !important;
+    padding-top: 0 !important;
+}
+
+.background2{
+    padding-bottom: 33%;
+    background: url("../img/background2.png") no-repeat top center fixed;
+    background-size: 100% 100%;
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .background2{
+        padding-bottom:0%;
+    }
+
+}
+
+.first{
+    background: url('../img/newsIntel.png');
+    background-size: cover;
+    width:50%;
+    height: 376px;
+}
+
+.second{
+    background: url('../img/newsvEPC.png');
+    background-size: cover;
+    width:100%;
+    height: 376px;
+}
+
+.third{
+    background: url('../img/newsNFVI.png');
+    background-size: cover;
+    width:100%;
+    height: 376px;
+
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .background2{
+        padding-bottom:80%;
+    }
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .updHeading{
+        margin-left:17px;
+    }
+}
+
+.updItems a{
+    font-size: 15px;
+}
+
+.updItems a:hover {
+    color:#00FF00;
+    background:none !important;
+    cursor:pointer;
+}
+
+.selectedBackground a{  /* when the link in update is clicked, the text color is changed to white */
+    color:white;
+    background: #2f6310;
+
+}
+
+
+.topBottSpacing{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.mdl-button:hover{
+    background:none;
+    color:#729e1a;
+}
+
+
+/*---------------------------------------------------Blogs------------------------------------------*/
+.content-overflow{
+    overflow:hidden;
+    overflow-y:auto;
+    height:510px;
+}
+
+@media(max-width:768px) {  /* ----sm --- */
+    .content-overflow{
+        height:100%;
+    }
+
+}
+.content-image{
+    border-radius:50%;
+    margin-top:30px;
+    height:100px;
+    width:100px;
+
+}
+
+
+
+/*--------------------------------------------------Executive Message --------------------------------------------------------*/
+
+.reduceMargin{
+    margin-top:-18px;
+}
+
+
+/*-------------------------------------------------Sahaab Programme ------------------------------------------------------*/
+.bottomBorder{
+    border-bottom: 2px solid blue;
+}
+
+
+/*------------------------------------------------Footer ----------------------------------------------------------------*/
+
+.footercss{
+    background: #1d1f1c;
+    color:white;
+}
+
+.emailIcon{
+    font-size:60px;
+    border-radius:50%;
+    color: #729e1a
+}
+
+/*-------------------------------------------------Executive Message Page --------------------------------------------------*/
+
+.profilepic{
+    border-radius:50%;
+    height:200px;
+    width:200px;
+}
+
