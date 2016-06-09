@@ -3,6 +3,12 @@ html{
     height: 100%;
 }
 
+@media screen and (min-width:0\0) {
+span[flex], .md-card-content, .md-dialog-content {
+    display: block;
+}
+}
+
 /* --Font Converter: https://everythingfonts.com/font-face */
 /* --Including different fonts below : https://css-tricks.com/snippets/css/using-font-face/ */
 @font-face {
