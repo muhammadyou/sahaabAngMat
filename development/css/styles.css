@@ -9,6 +9,10 @@ span[flex], .md-card-content, .md-dialog-content {
 }
 }
 
+.btn1{
+    color:black;
+}
+
 /* --Font Converter: https://everythingfonts.com/font-face */
 /* --Including different fonts below : https://css-tricks.com/snippets/css/using-font-face/ */
 @font-face {
